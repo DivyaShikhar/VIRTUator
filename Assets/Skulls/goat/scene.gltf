@@ -1,0 +1,508 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3552,
+      "max": [
+        0.6555539965629578,
+        0.0391448549926281,
+        1.5383285284042358
+      ],
+      "min": [
+        -0.6555539965629578,
+        -1.0662860870361328,
+        -1.0747008323669434
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 42624,
+      "componentType": 5126,
+      "count": 3552,
+      "max": [
+        0.9996602535247803,
+        0.9991883039474487,
+        0.9997949600219727
+      ],
+      "min": [
+        -0.9996602535247803,
+        -0.9992307424545288,
+        -0.995511531829834
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 3552,
+      "max": [
+        1.0,
+        0.999196469783783,
+        0.9998619556427002,
+        1.0
+      ],
+      "min": [
+        -0.9998802542686462,
+        -0.999793291091919,
+        -0.999866247177124,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3552,
+      "max": [
+        0.48949992656707764,
+        0.9334526062011719
+      ],
+      "min": [
+        0.010309162549674511,
+        0.03947392478585243
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 19140,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 85248,
+      "componentType": 5126,
+      "count": 1442,
+      "max": [
+        1.8812437057495117,
+        1.2594194412231445,
+        0.1599864810705185
+      ],
+      "min": [
+        -1.8812437057495117,
+        -0.9932675957679749,
+        -1.4961960315704346
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 102552,
+      "componentType": 5126,
+      "count": 1442,
+      "max": [
+        0.9999288320541382,
+        0.9952901601791382,
+        0.9804770350456238
+      ],
+      "min": [
+        -0.9999288320541382,
+        -0.9981738924980164,
+        -0.9886461496353149
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 56832,
+      "componentType": 5126,
+      "count": 1442,
+      "max": [
+        0.9966676235198975,
+        0.9982720017433167,
+        0.9884611368179321,
+        1.0
+      ],
+      "min": [
+        -0.9974331259727478,
+        -0.9932579398155212,
+        -0.9997907876968384,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 28416,
+      "componentType": 5126,
+      "count": 1442,
+      "max": [
+        0.9822908639907837,
+        0.9348894357681274
+      ],
+      "min": [
+        0.5012587904930115,
+        0.04307493567466736
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 76560,
+      "componentType": 5125,
+      "count": 7920,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 119856,
+      "componentType": 5126,
+      "count": 1260,
+      "max": [
+        0.38666975498199463,
+        -0.22373831272125244,
+        1.2872326374053955
+      ],
+      "min": [
+        -0.38666975498199463,
+        -0.3574787378311157,
+        0.7879636287689209
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 134976,
+      "componentType": 5126,
+      "count": 1260,
+      "max": [
+        0.9985496401786804,
+        0.6280837059020996,
+        0.9992413520812988
+      ],
+      "min": [
+        -0.9985496401786804,
+        -0.9989529252052307,
+        -0.9998636245727539
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 79904,
+      "componentType": 5126,
+      "count": 1260,
+      "max": [
+        0.9989475011825562,
+        0.9995002746582031,
+        0.99998939037323,
+        1.0
+      ],
+      "min": [
+        -0.9978671669960022,
+        -0.9983842968940735,
+        -0.9998419880867004,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 39952,
+      "componentType": 5126,
+      "count": 1260,
+      "max": [
+        0.8032786846160889,
+        0.9918522238731384
+      ],
+      "min": [
+        0.009539439342916012,
+        0.009608117863535881
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 108240,
+      "componentType": 5125,
+      "count": 5760,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Everton Bohnenberger (https://sketchfab.com/BOHNEN)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/goat-skull-99b738abd7d34b27a38b363900856043",
+      "title": "Goat Skull"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 131280,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 50032,
+      "byteOffset": 131280,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 150096,
+      "byteOffset": 181312,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 100064,
+      "byteOffset": 331408,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 431472,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/GoatRetopo_diffuse.png"
+    },
+    {
+      "uri": "textures/GoatRetopo_normal.png"
+    },
+    {
+      "uri": "textures/GoatRetopo_occlusion.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 0
+          },
+          "glossinessFactor": 0.4744318181818182,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "GoatRetopo",
+      "normalTexture": {
+        "index": 1
+      },
+      "occlusionTexture": {
+        "index": 2
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "root"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.7946044206619263,
+        0.3665196895599365,
+        1.0
+      ],
+      "name": "GoatRetopoLevel1_0"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_4"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "HornRetopoLevel1_1"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_6"
+    },
+    {
+      "children": [
+        8
+      ],
+      "name": "ToothRetopoLevel1_2"
+    },
+    {
+      "mesh": 2,
+      "name": "Object_8"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

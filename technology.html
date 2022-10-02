@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebAR | Physics</title>
+        
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+
+        <style>
+            body{
+                margin: 0px;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+
+    <body>
+        <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
+            <a-assets>
+                <a-asset-item id="circuit" src="./Assets/Physics/Circuit/scene.gltf"></a-asset-item>
+                <a-asset-item id="engineD" src="./Assets/Physics/Diesel/scene.gltf"></a-asset-item>
+                <a-asset-item id="engineE" src="./Assets/Physics/Electric/scene.gltf"></a-asset-item>
+                <a-asset-item id="motor" src="./Assets/Physics/Electrical/scene.gltf"></a-asset-item>
+                <a-asset-item id="jcb" src="./Assets/Physics/jcb/scene.gltf"></a-asset-item>
+                <a-asset-item id="cutter" src="./Assets/Physics/Cutter/scene.gltf"></a-asset-item>
+            </a-assets>
+
+
+            <a-marker id="circuit" type="pattern" preset="custom" url="./Pattern/pattern-Pragyan.patt">
+                <a-entity id="circuitID" gltf-model="#circuit" scale="6 6 6" position="0 -10  0" rotation="0 0 0" ></a-entity>
+            </a-marker>
+
+            <a-marker id="jcb" type="pattern" preset="custom" url="./Pattern/pattern-jcb.patt">
+                <a-entity id="jcb" gltf-model="#jcb" scale="6 6 6" position="0 -10  0" rotation="0 0 0" ></a-entity>
+            </a-marker>
+
+            <a-marker id="cutter" type="pattern" preset="custom" url="./Pattern/pattern-cutter.patt">
+                <a-entity id="cutter" gltf-model="#cutter" scale="6 6 6" position="0 -10  0" rotation="0 0 0" ></a-entity>
+            </a-marker>
+
+            <a-marker id="engine" type="pattern" preset="custom" url="./Pattern/pattern-Vikram.patt">
+                <a-entity id="engineID" gltf-model="#engineD" scale="200 200 200" position="0 0 0" rotation="0 0 90" ></a-entity>
+                
+            </a-marker>
+
+            <a-marker id="motor" type="pattern" preset="custom" url="./Pattern/pattern-electrical.patt">
+                <a-entity id="motorID" gltf-model="#motor" scale="1 1 1" position="0 0 0" rotation="0 0 0" ></a-entity>
+            </a-marker>
+            
+            <a-marker id="engineE" type="pattern" preset="custom" url="./Pattern/pattern-Engine.patt">
+               <a-entity id="engineD" gltf-model="#engineE" scale="1 1 1" position="0 0 0" rotation="90 0 0" ></a-entity>
+            </a-marker>
+
+            <a-entity camera></a-entity>
+        </a-scene>
+    </body>
+</html>
